@@ -2,37 +2,91 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box{
+  position: relative;
+  width: 85%;
+  height: 600px;
+  left: 8%;
+  top: 6px;
+  background: #ffffff;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 20px 10px 0px 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.today{
+  position: relative;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 43px;
+  color: #000000;
+  margin: 15px 15px 0px
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.flex-container1, .flex-container2 {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.week {
+  position: relative;
+  background: #FFFFFF;
+  font-family: Arial;
+  font-size: 1rem;
+  border-color: #FFAEAE;
+  color: #333333;
+  font-weight: bold;
+  padding: 1%;
+	width: 15%;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  margin: 5px 6px 0px;
+  display: inline-block;
+  border-width: 3px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.week.active {
+  position: relative;
+  background: #ff3a3a;
+  font-family: Arial;
+  font-size: 15px;
+  border-color: black;
+  color: #FFFFFF;
+  padding: 1%;
+	width: 12%;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  margin: 5px 4px 0px;
+  display: inline-block;
+}
+
+.div{
+  text-align: center;
+}
+
+.fork{
+  width: 50px;
+  height: 50px;
+  margin: 30px 10px 0px 0px;
+  display: inline-block;
+}
+
+.content {
+  position: relative;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 200;
+  font-size: larger;
+  line-height: 43px;
+  height: 120px;
+  color: #000000;
+  white-space: pre-line;
+  margin-right: 15%;
+  margin-left: 10%;
+}
+
+.logo {
+  width: 200px;
+  height: 140px;
+  margin: 10px;
 }

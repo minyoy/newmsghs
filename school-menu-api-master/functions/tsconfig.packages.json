@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "incremental": true,
+
+        "declarationMap": true,
+        "declaration": true,
+        "sourceMap": true,
+        "composite": true,
+
+        "skipLibCheck": true,
+
+        "target": "ES2019",
+        "module": "CommonJS"
+    },
+}

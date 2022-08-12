@@ -1,0 +1,2 @@
+export interface DataAccessor<T> {
+}

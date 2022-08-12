@@ -1,0 +1,20 @@
+node_modules/
+*.log
+*.cache
+
+## Compiled JavaScript files
+**/*.js
+**/*.js.map
+!**/*/*.config.js
+!**/*/jest.*.js
+
+# Typescript v1 declaration files
+typings/
+
+lib/
+dist/
+node_modules/
+
+*.tsbuildinfo
+
+.DS_Store
